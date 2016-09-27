@@ -2,8 +2,9 @@
   <div class="alert alert-info" ng-if="!config.url">
     Please insert a url in the widget configuration
   </div>
-  <iframe ng-if="iframe.url"
+ <iframe ng-if="config.url"
           class="adf-iframe"
-          style="height: {{config.height}}"
-          src="{{iframe.url}}" />
+          style="height: 720px; width:100%"
+          src="{{config.url}}" />
+
 </div>

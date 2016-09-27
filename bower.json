@@ -1,9 +1,9 @@
 {
-  "name": "adf-widget-iframe",
+  "name": "adf-widget-managementFrame",
   "version": "0.1.2",
   "main": [
-    "dist/adf-widget-iframe.js",
-    "dist/adf-widget-iframe.css"
+    "dist/adf-widget-managementFrame.js",
+    "dist/adf-widget-managementFrame.css"
   ],
   "ignore": [
     "bower.json",
@@ -21,7 +21,7 @@
     "widget",
     "adf",
     "adf-widget",
-    "iframe"
+    "managementFrame"
   ],
   "description": "IFrame widget for the angular-dashboard-framework",
   "dependencies": {

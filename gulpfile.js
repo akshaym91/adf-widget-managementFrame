@@ -14,8 +14,8 @@ var annotateOptions = {
 };
 
 var templateOptions = {
-  root: '{widgetsPath}/iframe/src',
-  module: 'adf.widget.iframe'
+  root: '{widgetsPath}/managementFrame/src',
+  module: 'adf.widget.managementFrame'
 };
 
 /** lint **/

@@ -1,12 +1,12 @@
 {
-  "name": "adf-widget-iframe",
+  "name": "adf-widget-managementFrame",
   "version": "0.1.2",
   "keywords": [
     "dashboard",
     "widget",
     "adf",
     "adf-widget",
-    "iframe"
+    "managementFrame"
   ],
   "description": "IFrame widget for the angular-dashboard-framework",
   "dependencies": {},

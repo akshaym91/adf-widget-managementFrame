@@ -1,4 +1,4 @@
-# adf-widget-iframe
+# adf-widget-managementFrame
 
 iFrame widget for the [angular-dashboard-framework](https://github.com/sdorra/angular-dashboard-framework).
 
@@ -20,7 +20,7 @@ npm install
 bower install
 ```
 
-#### Build the adf-widget-iframe
+#### Build the adf-widget-managementFrame
 
 ```bash
 gulp
@@ -41,18 +41,18 @@ Each goal can be used as parameter for the gulp command.
 Install the widget with bower:
 
 ```bash
-bower install adf-widget-iframe --save
+bower install adf-widget-managementFrame --save
 ```
 
 Include the script in your index.html and be sure it is loaded after [angular](https://angularjs.org/) and after the [angular-dashboard-framework](https://github.com/sdorra/angular-dashboard-framework).
 
 ```html
-<link href="bower_components/adf-widget-iframe/dist/adf-widget-iframe.min.css" rel="stylesheet">
-<script type="text/javascript" src="bower_components/adf-widget-iframe/dist/adf-widget-iframe.min.js"></script>
+<link href="bower_components/adf-widget-managementFrame/dist/adf-widget-managementFrame.min.css" rel="stylesheet">
+<script type="text/javascript" src="bower_components/adf-widget-managementFrame/dist/adf-widget-managementFrame.min.js"></script>
 ```
 
 Define a dependency for the module:
 
 ```javascript
-angular.module('sample', ['adf', 'adf.widget.iframe']);
+angular.module('sample', ['adf', 'adf.widget.managementFrame']);
 ```
